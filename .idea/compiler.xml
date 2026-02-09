@@ -2,15 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gulimarket-product" />
         <module name="gulimarket-member" />
+        <module name="gulimarket-product" />
+        <module name="renren-fast" />
         <module name="gulimarket-order" />
         <module name="gulimarket-coupon" />
         <module name="gulimarket-ware" />
+        <module name="renren-generator" />
+        <module name="gulimarket-common" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +25,8 @@
       <module name="gulimarket-order" options="-parameters" />
       <module name="gulimarket-product" options="-parameters" />
       <module name="gulimarket-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
     </option>
   </component>
 </project>
